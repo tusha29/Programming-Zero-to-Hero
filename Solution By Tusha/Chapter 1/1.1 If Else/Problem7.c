@@ -11,7 +11,7 @@ int main(){
 
     printf("- - - - - - - - - -\n");
 
-    if(character=>'a' && character<='z' || character=>'A' && character<='Z'){
+    if(character >='a' && character <='z' || character >='A' && character <='Z'){
         printf("The entered character %c is an Alphabet", character);
     }
     else{
